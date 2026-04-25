@@ -1,0 +1,37 @@
+{
+  "schema_version": "qqbot-openai-trace-round-metadata.v1",
+  "order": 3,
+  "llm_call_id": "llm_1777082052936_23c32712",
+  "agent_turn": 3,
+  "call_sequence": 3,
+  "span_id": "llm-call:llm_1777082052936_23c32712",
+  "started_at": "2026-04-25T09:54:12.095+08:00",
+  "completed_at": "2026-04-25T09:54:13.156+08:00",
+  "duration_ms": 1061,
+  "status": "ok",
+  "model_provider": "codex",
+  "model_name": "gpt-5.4-mini",
+  "prompt_template": "小腻主AGENT",
+  "token_usage": {
+    "raw_usage": {
+      "input_tokens": 38264,
+      "total_tokens": 38366,
+      "output_tokens": 102,
+      "input_tokens_details": {
+        "cached_tokens": 37376
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "input_tokens": 38264,
+    "total_tokens": 38366,
+    "output_tokens": 102,
+    "reasoning_tokens": 0,
+    "cached_input_tokens": 37376
+  },
+  "files": {
+    "input": "input.json",
+    "output": "output.json"
+  }
+}

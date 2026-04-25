@@ -1,0 +1,67 @@
+{
+  "schema_version": "qqbot-openai-trace-sample-index.v1",
+  "source": {
+    "page_url": "https://qqbot-admin.liahuas.top/runs/run_1777082039566_23393023/trace",
+    "local_trace_api": "http://127.0.0.1:9080/api/runs/run_1777082039566_23393023/trace",
+    "run_id": "run_1777082039566_23393023",
+    "conversation_id": "3509",
+    "trace_id": "runtrace_1777082039566_e0660bbd",
+    "started_at": "2026-04-25T09:53:42.878+08:00",
+    "ended_at": "2026-04-25T09:54:16.468+08:00",
+    "final_summary": "哈哈，确实，没想着留下，结果留下了最关键的那个。"
+  },
+  "redaction": {
+    "applied": true,
+    "rule": "credential-like object keys are replaced with [REDACTED]; token count fields and request/response bodies are otherwise preserved from wire_request and wire_response"
+  },
+  "rounds": [
+    {
+      "order": 1,
+      "dir": "round_01",
+      "llm_call_id": "llm_1777082041062_82e64213",
+      "agent_turn": 1,
+      "started_at": "2026-04-25T09:54:01.073+08:00",
+      "completed_at": "2026-04-25T09:54:05.523+08:00",
+      "model_name": "gpt-5.4-mini",
+      "input": "round_01/input.json",
+      "output": "round_01/output.json",
+      "metadata": "round_01/metadata.json"
+    },
+    {
+      "order": 2,
+      "dir": "round_02",
+      "llm_call_id": "llm_1777082046405_676dd199",
+      "agent_turn": 2,
+      "started_at": "2026-04-25T09:54:06.413+08:00",
+      "completed_at": "2026-04-25T09:54:12.125+08:00",
+      "model_name": "gpt-5.4-mini",
+      "input": "round_02/input.json",
+      "output": "round_02/output.json",
+      "metadata": "round_02/metadata.json"
+    },
+    {
+      "order": 3,
+      "dir": "round_03",
+      "llm_call_id": "llm_1777082052936_23c32712",
+      "agent_turn": 3,
+      "started_at": "2026-04-25T09:54:12.095+08:00",
+      "completed_at": "2026-04-25T09:54:13.156+08:00",
+      "model_name": "gpt-5.4-mini",
+      "input": "round_03/input.json",
+      "output": "round_03/output.json",
+      "metadata": "round_03/metadata.json"
+    },
+    {
+      "order": 4,
+      "dir": "round_04",
+      "llm_call_id": "llm_1777082054111_0f8c77a1",
+      "agent_turn": 4,
+      "started_at": "2026-04-25T09:54:14.126+08:00",
+      "completed_at": "2026-04-25T09:54:16.377+08:00",
+      "model_name": "gpt-5.4-mini",
+      "input": "round_04/input.json",
+      "output": "round_04/output.json",
+      "metadata": "round_04/metadata.json"
+    }
+  ]
+}
